@@ -83,6 +83,7 @@ plugins=(
     docker
     git
     jsontools
+    kubectl
     macos
     nvm
     terraform
@@ -126,3 +127,5 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+alias cluedin="pwsh /Users/d070725/Work/Code/CluedIn/github.com/Home/cluedin.ps1"
